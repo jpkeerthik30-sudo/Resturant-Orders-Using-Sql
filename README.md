@@ -11,7 +11,7 @@ order_details – Contains order-level transaction data (date, time, item ordere
 
 By combining these tables, we perform exploratory data analysis (EDA) to answer key business questions.
 
-## Database Schema
+### Database Schema
 
 1. menu_items
 
@@ -27,6 +27,7 @@ order_id
 order_date
 order_time
 item_id (Foreign Key → menu_items)
+
 ## Project Objectives
 Understand the structure and content of the dataset
 Analyze menu distribution and pricing
@@ -36,28 +37,47 @@ Generate actionable insights for business decisions
 
 ## Key Questions Answered
 🔹 Menu Analysis
+
 What items are available on the menu?
+
 How many items are on the menu?
+
 What are the least and most expensive items?
+
 How many Italian dishes are available?
+
 What are the least and most expensive Italian dishes?
+
 How many dishes are in each category?
+
 What is the average price of dishes in each category?
 
 🔹 Order Analysis
+
 What does the order_details table look like?
+
 What is the date range of orders?
+
 How many total orders were placed?
+
 How many items were ordered in total?
+
 Which orders contain the most items?
+
 How many orders have more than 12 items?
 
 🔹 Sales & Customer Insights
+
 How can we combine menu and order data?
+
 What are the most and least ordered items?
+
 Which categories do top-selling items belong to?
+
 What are the top 5 highest spending orders?
+
 What insights can be derived from the highest spending order?
+
 What patterns are visible in the top 5 highest spending orders?
 
 ## Key SQL Techniques Used

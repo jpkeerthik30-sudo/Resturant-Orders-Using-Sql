@@ -38,47 +38,47 @@ Generate actionable insights for business decisions
 ## Key Questions Answered
 🔹 Menu Analysis
 
-What items are available on the menu?
+1. What items are available on the menu?
 
-How many items are on the menu?
+2. How many items are on the menu?
 
-What are the least and most expensive items?
+3. What are the least and most expensive items?
 
-How many Italian dishes are available?
+4. How many Italian dishes are available?
 
-What are the least and most expensive Italian dishes?
+5. What are the least and most expensive Italian dishes?
 
-How many dishes are in each category?
+6. How many dishes are in each category?
 
-What is the average price of dishes in each category?
+7. What is the average price of dishes in each category?
 
 🔹 Order Analysis
 
-What does the order_details table look like?
+1. What does the order_details table look like?
 
-What is the date range of orders?
+2. What is the date range of orders?
 
-How many total orders were placed?
+3. How many total orders were placed?
 
-How many items were ordered in total?
+4. How many items were ordered in total?
 
-Which orders contain the most items?
+5. Which orders contain the most items?
 
-How many orders have more than 12 items?
+6. How many orders have more than 12 items?
 
-🔹 Sales & Customer Insights
+🔹 Menu_Items and Order_Details
 
-How can we combine menu and order data?
+1. How can we combine menu and order data?
 
-What are the most and least ordered items?
+2. What are the most and least ordered items?
 
-Which categories do top-selling items belong to?
+3. Which categories do top-selling items belong to?
 
-What are the top 5 highest spending orders?
+4. What are the top 5 highest spending orders?
 
-What insights can be derived from the highest spending order?
+5. What insights can be derived from the highest spending order?
 
-What patterns are visible in the top 5 highest spending orders?
+6. What patterns are visible in the top 5 highest spending orders?
 
 ## Key SQL Techniques Used
 SELECT, WHERE, ORDER BY
